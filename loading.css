@@ -1,0 +1,42 @@
+.loadingbar {
+    background-image: linear-gradient( 90deg, rgb(216, 215, 215), rgb(253, 243, 243), #eeeeee, #f2f2f2);
+    background-size: 1000%;
+    background-position: right;
+    border-radius: 20px;
+    width: 150px;
+    height: 15px;
+    animation: sweep 5s ease-in-out infinite alternate;
+    display: block;
+    margin-bottom: 10px;
+}
+
+@keyframes sweep {
+    0% {
+        background-position: right;
+    }
+    100% {
+        background-position: left;
+    }
+}
+
+.loadingbar.loading-25 {
+    width: 25%;
+}
+
+.loadingbar.loading-50 {
+    width: 50%;
+}
+
+
+.loadingbar.loading-75 {
+    width: 75%;
+}
+
+
+.loadingbar.loading-75 {
+    width: 75%;
+}
+
+.loadingbar.loading-100 {
+    width: 100%;
+}
